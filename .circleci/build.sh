@@ -41,7 +41,7 @@ function finerr() {
 }
 # Compile plox
 function compile() {
-    make O=out ARCH=arm64 lavender-perf_defconfig
+    make O=out ARCH=arm64 lavender_defconfig
     make -j$(nproc --all) O=out \
                           ARCH=arm64 \
 			                    CC=clang \
