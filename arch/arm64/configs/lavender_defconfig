@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.4.261 Kernel Configuration
+# Linux/arm64 4.4.270 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -606,7 +606,6 @@ CONFIG_CPU_IDLE_GOV_MENU=y
 # CPU Frequency scaling
 #
 CONFIG_CPU_FREQ=y
-CONFIG_CPU_FREQ_GOV_COMMON=y
 CONFIG_CPU_FREQ_STAT=y
 # CONFIG_CPU_FREQ_STAT_DETAILS is not set
 CONFIG_CPU_FREQ_TIMES=y
